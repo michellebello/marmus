@@ -1,40 +1,56 @@
-.signIn {
+.sign {
   display: flex;
   flex-direction: column;
-  width: 40%;
-  height: 50%;
+  max-width: 40%;
+  min-height: 50%;
   margin-top: 5%;
   margin-left: 30%;
+  padding: 2%;
   background-color: #fdf0d5;
   border-radius: 10px;
 }
 
 .signLabel {
-  font-size: 20px;
+  font-size: 25px;
   color: #3a3335;
   text-align: center;
   text-transform: capitalize;
 }
 
-.inputSignIn {
-  border: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+.passwordContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.inputSign {
+  width: 100%;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 20px;
   border-radius: 5px;
   border-color: #f0544f;
-  border-style: inherit;
+  border-style: initial;
   box-shadow: 0 0 0 2px #f0544f;
+  font-size: 15px;
+}
+
+.eye {
+  height: 18px;
+  width: 30px;
+  margin-left: -30px;
+  color: #3a3335;
 }
 
 .signButton {
   margin-top: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
-  width: 20%;
-  margin-left: 40%;
-  margin-right: 40px;
+  width: 14%;
+  margin-left: 43%;
+  margin-right: 43%;
   border-color: #f0544f;
   background-color: #d81e5b;
+  font-size: 18px;
 }
